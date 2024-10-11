@@ -2,9 +2,9 @@
 # Set lots of variables
 count=0; fnr=0; IFS=$'\t';
 wantedcountry="Mozambique"
-inputfile="example_people_data.tsv"
+inputfile="/localdisk/home/s2746775/Exercises/Lecture05/example_people_data.tsv"
 inputfilelength=$(wc -l ${inputfile} | cut -d ' ' -f1)
-outputfile="Country.${wantedcountry}.details"
+outputfile="/localdisk/home/s2746775/Exercises/Lecture05/outfiles/Country.${wantedcountry}.details"
 # Initial actions
 rm  -f *.details
 unset my_array
